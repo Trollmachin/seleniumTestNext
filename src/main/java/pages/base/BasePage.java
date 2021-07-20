@@ -12,6 +12,7 @@ public class BasePage {
 
     public WebDriver driver;
     public BasePage(WebDriver driver) {
+
         this.driver = driver;
     }
 
@@ -19,6 +20,7 @@ public class BasePage {
      * The method for navigating to a specific URL
      * */
     public void goToUrl(String url) {
+
         driver.get(url);
     }
 
